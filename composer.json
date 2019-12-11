@@ -20,5 +20,8 @@
         "psr-4": {
             "Nrgone\\Registry\\": "src/"
         }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
     }
 }
