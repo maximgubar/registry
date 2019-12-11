@@ -1,20 +1,20 @@
 {
     "name": "maximgubar/registry",
     "description": "Registry service.",
-    "keywords": ["template", "composer", "package"],
-    "license": "DBAD",
+    "keywords": ["registry", "service"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Maksym Hubar",
             "email": "maxim.gubar@gmail.com"
         }
     ],
-    "type": "project",
+    "type": "library",
     "require": {
-		"php": ">=7.1"
+        "php": ">=7.1"
     },
     "require-dev": {
-		"phpunit/phpunit": "6.*"
+        "phpunit/phpunit": "6.*"
     },
     "autoload": {
         "psr-4": {
